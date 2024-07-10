@@ -1,0 +1,73 @@
+/* Ensure the body and html take up the full height of the screen */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the container vertically and horizontally */
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+  }
+  
+  /* Add some padding, shadow, and rounded corners to the login box */
+  .login-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 400%;
+  }
+  
+  /* Center the login heading */
+  .login-box h2 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Style the form labels */
+  .login-box .form-label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  /* Style the form inputs */
+  .login-box .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Style the form inputs on focus */
+  .login-box .form-control:focus {
+    box-shadow: none;
+    border-color: #80bdff;
+  }
+  
+  /* Style the submit button */
+  .login-box .btn {
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    width: 100%; /* Make the button full-width */
+  }
+  
+  /* Add some margin to the top of the submit button */
+  .login-box .btn {
+    margin-top: 20px;
+  }
+  
+  /* Style the alert box */
+  .login-box .alert {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
